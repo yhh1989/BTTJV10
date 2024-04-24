@@ -1,0 +1,10 @@
+.vs
+packages
+[Bb][Ii][Nn]
+[Oo][Bb][Jj]
+*.user
+*.suo
+~$*
+*.DotSettings
+bin/
+obj/

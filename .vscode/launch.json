@@ -1,0 +1,45 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Hes.WebApi.Host",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build_hes_webapi_host",
+            "program": "${workspaceFolder}/src/app/HealthExaminationSystem.WebApi.Host/bin/Debug/net8.0/HealthExaminationSystem.WebApi.Host.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/src/app/HealthExaminationSystem.WebApi.Host",
+            "stopAtEntry": false,
+            "serverReadyAction": {
+                "action": "openExternally",
+                "pattern": "\\bNow listening on:\\s+(https?://\\S+)"
+            },
+            "env": {
+                "ASPNETCORE_ENVIRONMENT": "Development"
+            },
+            "sourceFileMap": {
+                "/Views": "${workspaceFolder}/Views"
+            }
+        },
+        {
+            "name": "Hes.Web.Host",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build_hes_web_host",
+            "program": "${workspaceFolder}/src/app/HealthExaminationSystem.Web.Host/bin/Debug/net8.0/HealthExaminationSystem.Web.Host.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/src/app/HealthExaminationSystem.Web.Host",
+            "stopAtEntry": false,
+            "serverReadyAction": {
+                "action": "openExternally",
+                "pattern": "\\bNow listening on:\\s+(https?://\\S+)"
+            },
+            "env": {
+                "ASPNETCORE_ENVIRONMENT": "Development"
+            },
+            "sourceFileMap": {
+                "/Views": "${workspaceFolder}/Views"
+            }
+        }
+    ]
+}

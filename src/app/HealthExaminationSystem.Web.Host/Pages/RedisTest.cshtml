@@ -1,0 +1,13 @@
+@page
+
+@model HealthExaminationSystem.Web.Pages.RedisTestModel
+
+<div>
+    <h2>租户列表</h2>
+    <ul>
+    @foreach(var tenant in Model.Tenants)
+    {
+        <li>@tenant.Id @tenant.Name</li>
+    }
+    </ul>
+</div>

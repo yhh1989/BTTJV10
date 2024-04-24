@@ -1,0 +1,83 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "app", "app", "{CAF79C61-3432-4889-BCF2-D5CCD50D23DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthExaminationSystem.Core.Shared", "app\HealthExaminationSystem.Core.Shared\HealthExaminationSystem.Core.Shared.csproj", "{78CD4ECD-FBFB-442E-A6E6-8F9BA9FE30FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthExaminationSystem.Core", "app\HealthExaminationSystem.Core\HealthExaminationSystem.Core.csproj", "{FDC08F92-7E22-466C-8D93-7FB1D6BCDB5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthExaminationSystem.EntityFrameworkCore", "app\HealthExaminationSystem.EntityFrameworkCore\HealthExaminationSystem.EntityFrameworkCore.csproj", "{FE3F9C40-58A9-4F74-9E0F-BFAE26A1A07E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthExaminationSystem.Application.Contracts", "app\HealthExaminationSystem.Application.Contracts\HealthExaminationSystem.Application.Contracts.csproj", "{12B04D40-7C60-41FC-8C0E-9C23A2C76EE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthExaminationSystem.Application", "app\HealthExaminationSystem.Application\HealthExaminationSystem.Application.csproj", "{A0C56BF3-40BC-4C20-B30F-C13F3BF42917}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthExaminationSystem.WebApi", "app\HealthExaminationSystem.WebApi\HealthExaminationSystem.WebApi.csproj", "{92B44377-CD6B-4194-B9B9-F82D8F39882D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthExaminationSystem.WebApi.Client", "app\HealthExaminationSystem.WebApi.Client\HealthExaminationSystem.WebApi.Client.csproj", "{A33E81B0-F890-4496-8005-8AA629958594}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthExaminationSystem.WebApi.Host", "app\HealthExaminationSystem.WebApi.Host\HealthExaminationSystem.WebApi.Host.csproj", "{F39E8296-1A53-4934-82F8-BB834D51DEB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthExaminationSystem.Web.Host", "app\HealthExaminationSystem.Web.Host\HealthExaminationSystem.Web.Host.csproj", "{CDAD1E6F-3BC2-43B5-AE29-E196CC2302E0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{78CD4ECD-FBFB-442E-A6E6-8F9BA9FE30FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78CD4ECD-FBFB-442E-A6E6-8F9BA9FE30FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78CD4ECD-FBFB-442E-A6E6-8F9BA9FE30FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78CD4ECD-FBFB-442E-A6E6-8F9BA9FE30FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDC08F92-7E22-466C-8D93-7FB1D6BCDB5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDC08F92-7E22-466C-8D93-7FB1D6BCDB5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDC08F92-7E22-466C-8D93-7FB1D6BCDB5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDC08F92-7E22-466C-8D93-7FB1D6BCDB5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE3F9C40-58A9-4F74-9E0F-BFAE26A1A07E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE3F9C40-58A9-4F74-9E0F-BFAE26A1A07E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE3F9C40-58A9-4F74-9E0F-BFAE26A1A07E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE3F9C40-58A9-4F74-9E0F-BFAE26A1A07E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12B04D40-7C60-41FC-8C0E-9C23A2C76EE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12B04D40-7C60-41FC-8C0E-9C23A2C76EE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12B04D40-7C60-41FC-8C0E-9C23A2C76EE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12B04D40-7C60-41FC-8C0E-9C23A2C76EE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0C56BF3-40BC-4C20-B30F-C13F3BF42917}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0C56BF3-40BC-4C20-B30F-C13F3BF42917}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0C56BF3-40BC-4C20-B30F-C13F3BF42917}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0C56BF3-40BC-4C20-B30F-C13F3BF42917}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92B44377-CD6B-4194-B9B9-F82D8F39882D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92B44377-CD6B-4194-B9B9-F82D8F39882D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92B44377-CD6B-4194-B9B9-F82D8F39882D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92B44377-CD6B-4194-B9B9-F82D8F39882D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A33E81B0-F890-4496-8005-8AA629958594}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A33E81B0-F890-4496-8005-8AA629958594}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A33E81B0-F890-4496-8005-8AA629958594}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A33E81B0-F890-4496-8005-8AA629958594}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F39E8296-1A53-4934-82F8-BB834D51DEB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F39E8296-1A53-4934-82F8-BB834D51DEB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F39E8296-1A53-4934-82F8-BB834D51DEB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F39E8296-1A53-4934-82F8-BB834D51DEB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDAD1E6F-3BC2-43B5-AE29-E196CC2302E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDAD1E6F-3BC2-43B5-AE29-E196CC2302E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDAD1E6F-3BC2-43B5-AE29-E196CC2302E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDAD1E6F-3BC2-43B5-AE29-E196CC2302E0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{78CD4ECD-FBFB-442E-A6E6-8F9BA9FE30FA} = {CAF79C61-3432-4889-BCF2-D5CCD50D23DD}
+		{FDC08F92-7E22-466C-8D93-7FB1D6BCDB5A} = {CAF79C61-3432-4889-BCF2-D5CCD50D23DD}
+		{FE3F9C40-58A9-4F74-9E0F-BFAE26A1A07E} = {CAF79C61-3432-4889-BCF2-D5CCD50D23DD}
+		{12B04D40-7C60-41FC-8C0E-9C23A2C76EE7} = {CAF79C61-3432-4889-BCF2-D5CCD50D23DD}
+		{A0C56BF3-40BC-4C20-B30F-C13F3BF42917} = {CAF79C61-3432-4889-BCF2-D5CCD50D23DD}
+		{92B44377-CD6B-4194-B9B9-F82D8F39882D} = {CAF79C61-3432-4889-BCF2-D5CCD50D23DD}
+		{A33E81B0-F890-4496-8005-8AA629958594} = {CAF79C61-3432-4889-BCF2-D5CCD50D23DD}
+		{F39E8296-1A53-4934-82F8-BB834D51DEB6} = {CAF79C61-3432-4889-BCF2-D5CCD50D23DD}
+		{CDAD1E6F-3BC2-43B5-AE29-E196CC2302E0} = {CAF79C61-3432-4889-BCF2-D5CCD50D23DD}
+	EndGlobalSection
+EndGlobal
